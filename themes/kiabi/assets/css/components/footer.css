@@ -1,0 +1,270 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.footer-container .block .title_block {
+  font-size: 16px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: left; }
+
+.footer-container {
+  overflow: hidden; }
+  .footer-container .ApBlockLink ul {
+    margin-bottom: 0; }
+  .footer-container .ApBlockLink li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #c7c3d4;
+    padding-bottom: 6px;
+    line-height: 24px; }
+    .footer-container .ApBlockLink li a:hover {
+      text-decoration: underline; }
+  .footer-container .links .collapse {
+    display: inherit; }
+
+.footer-bottom .ApColumn .block {
+  margin-bottom: 0px; }
+
+.footer-top .block_newsletter.block {
+  margin-bottom: 0px; }
+
+.block_newsletter {
+  padding: 40px 0px;
+  margin-bottom: 0.625rem; }
+  @media (min-width: 768px) {
+    .block_newsletter {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  .block_newsletter.block .title_block {
+    color: #000000;
+    margin: 0;
+    padding: 15px 0; }
+    @media (min-width: 768px) {
+      .block_newsletter.block .title_block {
+        width: 41.66667%;
+        float: left; }
+        .rtl .block_newsletter.block .title_block {
+          float: right; } }
+    @media (max-width: 991px) {
+      .block_newsletter.block .title_block {
+        text-align: center; } }
+  @media (min-width: 768px) {
+    .block_newsletter.block .block_content {
+      width: 58.33333%;
+      float: left; }
+      .rtl .block_newsletter.block .block_content {
+        float: right; } }
+  .block_newsletter p {
+    padding-top: 0.625rem; }
+  .block_newsletter form .input-wrapper {
+    overflow: hidden; }
+  .block_newsletter form input[type=email] {
+    padding: 17px 11px 15px;
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    color: #272727;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    width: 100%; }
+    .block_newsletter form input[type=email]::-webkit-input-placeholder {
+      color: #040037;
+      text-indent: 0.625rem; }
+    .block_newsletter form input[type=email]::-moz-placeholder {
+      color: #040037;
+      text-indent: 0.625rem; }
+    .block_newsletter form input[type=email]:-moz-placeholder {
+      color: #040037;
+      text-indent: 0.625rem; }
+    .block_newsletter form input[type=email]:-ms-input-placeholder {
+      color: #040037;
+      text-indent: 0.625rem; }
+    .block_newsletter form input[type=email]:focus {
+      outline: 0; }
+  .block_newsletter form input {
+    height: 45px; }
+  .block_newsletter form .btn {
+    position: absolute;
+    top: 0.1875rem;
+    text-align: center;
+    padding: 0;
+    right: 1.125rem;
+    width: 2.438rem;
+    height: 2.438rem; }
+    .rtl .block_newsletter form .btn {
+      left: 1.125rem;
+      right: auto; }
+    .block_newsletter form .btn span {
+      display: none; }
+    .block_newsletter form .btn:hover {
+      background: #040037;
+      border-color: #040037; }
+
+.block-contact ul li {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.625rem; }
+.block-contact .fa {
+  color: white;
+  font-size: 1rem;
+  width: 2.5rem;
+  margin-top: 0.25rem; }
+
+.block-social {
+  text-align: right;
+  padding: 2.5rem 0; }
+  .rtl .block-social {
+    text-align: left; }
+  .block-social ul {
+    margin-bottom: 0; }
+  .block-social li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0.125rem;
+    text-align: center; }
+    .block-social li a {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      line-height: 2.8125rem;
+      border: 1px solid #040037;
+      width: 2.8125rem;
+      height: 2.8125rem;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+      .block-social li a:hover {
+        color: transparent; }
+      .block-social li a span {
+        display: none; }
+      .block-social li a:before {
+        content: "";
+        font-family: "FontAwesome";
+        font-size: 1rem; }
+    .block-social li.facebook a {
+      border-color: #3c5a98; }
+      .block-social li.facebook a:before {
+        content: "\f09a";
+        color: #3c5a98; }
+      .block-social li.facebook a:hover {
+        background: #3c5a98; }
+        .block-social li.facebook a:hover:before {
+          color: white; }
+    .block-social li.twitter a {
+      border-color: #55acee; }
+      .block-social li.twitter a:before {
+        content: "\f099";
+        color: #55acee; }
+      .block-social li.twitter a:hover {
+        background: #55acee; }
+        .block-social li.twitter a:hover:before {
+          color: white; }
+    .block-social li.rss a {
+      border-color: #FF6600; }
+      .block-social li.rss a:before {
+        content: "\f09e";
+        color: #FF6600; }
+      .block-social li.rss a:hover {
+        background: #FF6600; }
+        .block-social li.rss a:hover:before {
+          color: white; }
+    .block-social li.youtube a {
+      border-color: #e84542; }
+      .block-social li.youtube a:before {
+        content: "\f16a";
+        color: #e84542; }
+      .block-social li.youtube a:hover {
+        background: #e84542; }
+        .block-social li.youtube a:hover:before {
+          color: white; }
+    .block-social li.googleplus a {
+      border-color: #d6492f; }
+      .block-social li.googleplus a:before {
+        content: "\f0d5";
+        color: #d6492f; }
+      .block-social li.googleplus a:hover {
+        background: #d6492f; }
+        .block-social li.googleplus a:hover:before {
+          color: white; }
+    .block-social li.pinterest a {
+      border-color: #cb2027; }
+      .block-social li.pinterest a:before {
+        content: "\f0d2";
+        color: #cb2027; }
+      .block-social li.pinterest a:hover {
+        background: #cb2027; }
+        .block-social li.pinterest a:hover:before {
+          color: white; }
+    .block-social li.vimeo a {
+      border-color: #1ab7ea; }
+      .block-social li.vimeo a:before {
+        content: "\f27d";
+        color: #1ab7ea; }
+      .block-social li.vimeo a:hover {
+        background: #1ab7ea; }
+        .block-social li.vimeo a:hover:before {
+          color: white; }
+    .block-social li.instagram a {
+      border-color: #4c61b0; }
+      .block-social li.instagram a:before {
+        content: "\f16d";
+        color: #4c61b0; }
+      .block-social li.instagram a:hover {
+        background: #4c61b0; }
+        .block-social li.instagram a:hover:before {
+          color: white; }
+
+@media (max-width: 767px) {
+  .footer-container .ApColumn .block {
+    margin-bottom: 0px; }
+  .footer-container .ApColumn .links .h3, .footer-container .ApColumn .links .title_block, .footer-container .ApColumn .block-toggler .h3, .footer-container .ApColumn .block-toggler .title_block {
+    line-height: 1.5;
+    display: inline-block; }
+  .footer-container .ApColumn .links .navbar-toggler, .footer-container .ApColumn .block-toggler .navbar-toggler {
+    margin-top: 0.9375rem; }
+  .footer-container .ApColumn .links ul, .footer-container .ApColumn .block-toggler ul {
+    margin-bottom: 0; }
+
+  .block_newsletter .conditions {
+    margin-bottom: 1.25rem; } }
+@media (max-width: 991px) {
+  .block-social {
+    text-align: center;
+    padding: 0.625rem 0 1.875rem; } }
+
+/*# sourceMappingURL=footer.css.map */

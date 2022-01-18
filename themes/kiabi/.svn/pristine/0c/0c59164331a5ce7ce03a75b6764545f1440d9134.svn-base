@@ -1,0 +1,179 @@
+@import "theme_variables";
+
+/* block top search */
+#search_block_top {
+	position:absolute;
+	right: 26%;
+    top: 34px;
+}
+#search_block_top p {padding:0;}
+#search_block_top #search_query_top {
+	padding:0 5px;
+	height:23px;
+	width:300px;/* 310 */
+	border:1px solid #666;
+	border-right: 0 !important;
+	color:#666;
+	background:url(img/bg_search_input.png) repeat-x 0 0 #fff;
+	float: left;
+}
+
+#search_block_top .button {
+	border:none;
+	border-radius:0;
+	color:#fff;
+	text-transform:uppercase;
+	background:url(img/bg_search_submit.png) repeat-x 0 0 #101010;
+	float: left;
+	height: 25px;
+}
+
+form#searchbox{padding-top:5px}
+form#searchbox label{color:#333;margin-bottom:1px}
+form#searchbox input#leo_search_query_block{
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius:3px !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+    height: 18px;
+	margin-top:10px;
+}
+form#searchbox input#search_button{padding: 1px 4px;}
+
+.list-cate-wrapper
+{
+	position: relative;
+}
+
+.list-cate
+{
+	width: 100%;
+	padding: 0px;
+}
+
+.cate-item
+{
+	display: block;
+	padding: 10px;
+}
+
+#leosearchtopbox a.cate-item.active, #leosearchtopbox a.cate-item:hover, #leosearchbox a.cate-item.active, #leosearchbox a.cate-item:hover
+{
+	background: $theme-color-default;
+	color: #fff;
+}
+
+#dropdownListCate, #dropdownListCateTop
+{
+	cursor: pointer;
+	display: block;
+	padding: 5px 0px 5px 5px;
+}
+
+#leosearchtopbox #dropdownListCateTop:hover, #leosearchbox #dropdownListCate:hover
+{
+	color: #414141;
+}
+
+#leo_search_block_top{
+  margin-top: 5px;
+  border: 1px solid $theme-color-default;
+  @include border-radius(23px);
+  .title_block{
+    display: none;
+  }
+  label[for="search_query_block"]{
+    display: none;
+  }
+  .block_content{
+    @include rtl-padding(0,0,0,150px);
+    position: relative;
+    @media (max-width: 575px) {
+      @include rtl-padding(0,0,0,0px);
+    }
+  }
+  .list-cate-wrapper {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 45px;
+    @include rtl-left(0);
+    @media (max-width: 575px) {
+      display: none;
+    }
+    &:before{
+      content: "";
+      width: 1px;
+      height: 25px;
+      position: absolute;
+      top: 10px;
+      @include rtl-right(0);
+      background: #eee;
+    }
+    .select-title{
+      height: 45px;
+      overflow: hidden;
+      line-height: 45px;
+      text-transform: capitalize;
+      color: #999;
+      i {
+        position: absolute;
+        top: 14px;
+        @include rtl-right(10px);
+      }
+    }
+    .dropdown-menu {
+      font-size: 13px; 
+      max-height: 230px;
+      overflow: auto;
+      overflow-x: hidden;
+    }
+  }
+  #dropdownListCateTop {
+    padding: 0 25px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    i{
+      font-size: 14px;
+    }
+  }
+  .form-control{
+    background: none;
+    border: 0;
+    height: 43px;
+    line-height: 43px;
+    @include rtl-padding(0,45px,0,15px);
+    @include border-radius(0);
+    outline: 0;
+    @media (max-width: 767px) {
+  		font-size: 12px;
+  	}
+  }
+  .btn {
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    background: none;
+    color: $theme-color-default;
+    position: absolute;
+    top: 0;
+    @include rtl-right(0);
+    &:hover{
+      color: #000;
+    }
+  }
+}
+
+.leoproductsearch-result{
+  position: relative;
+}
+
+.ac_results{
+  @include rtl-text-align-left();
+}

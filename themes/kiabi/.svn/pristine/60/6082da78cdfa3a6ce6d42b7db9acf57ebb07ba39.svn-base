@@ -1,0 +1,118 @@
+@import "theme_variables";
+
+/*
+*   Owl Carousel Owl Demo Theme 
+* v1.3.3
+*/
+.owl-row {
+  margin-left: -$grid-gutter-width-base/2;
+  margin-right: -$grid-gutter-width-base/2; 
+}
+
+.owl-carousel {
+  .owl-item {
+      padding: 0 $grid-gutter-width-base/2;    
+  }
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme {
+  .owl-buttons {
+    width: 55px;
+    position: absolute;
+    top: -85px;
+    overflow: hidden;
+    @include rtl-right(15px);
+    div{
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+        color: $nocolor;
+        text-align: center;
+        background: #f3f3f3;
+        @include transition(all 0.5s ease);
+        @include rounded-corners(3px);
+        &:before{
+          content: "\f105";
+          font-family: $font-icon;
+          color: #999999;
+          font-size: 1rem;
+          display: block;
+          @include transition(all 0.5s ease);
+      	  [dir="rtl"] & {
+      	     content: "\f104";
+      	  }
+        }
+        &.owl-prev{
+          @include rtl-float-left();
+          &:before{
+            content: "\f104";
+    	      [dir="rtl"] & {
+    	     	content: "\f105";
+    	      }
+          }
+        }
+      &.owl-next{
+        @include rtl-float-right();
+      }
+        &:hover{
+          @media (min-width: 992px) {
+            background: $theme-color-default;
+          @include transition(all 0.5s ease);
+          &:before{
+              color: $white;
+          }
+        }
+        }
+    }
+  }
+}
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+  @include opacity(1);
+  text-decoration: none;
+}
+
+/* Styling Pagination*/
+.owl-theme{
+  .owl-controls{
+    .owl-pagination{
+      margin: 10px 0;
+    }
+    .owl-page{
+      display: inline-block;
+      zoom: 1;
+      *display: inline;/*IE7 life-saver */
+    }
+    span{
+      display: block;
+      width: 8px;
+      height: 8px;
+      margin: 0 3px;
+      @include border-radius(100%);
+      @include rgba($black, 0.5);
+    }
+  }
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+  @include rgba($black, 0.2);
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+  height: auto;
+  width: auto;
+  color: #FFF;
+  padding: 2px 10px;
+  font-size: 12px;
+  @include border-radius(30px);
+}
+
+/* preloading images */
+.owl-item.loading{
+  min-height: 150px;
+  background: url(#{$image-appagebuilder-path}/img/AjaxLoader.gif) no-repeat center center
+}

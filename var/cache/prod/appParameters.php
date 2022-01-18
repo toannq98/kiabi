@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'kiabi',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'ViY8ms7EEhvfRnAoBGz4DuYM2Ad7HgmyuEysy9JEKEH3bjs9KnSyfAgpovSAwkhj',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2022-01-08',
+    'locale' => 'fr-FR',
+    'use_debug_toolbar' => true,
+    'cookie_key' => '4kHZpL6s8yVBIF7eYW5NnbA87bt3RJ8BNfbgSVhO3xCONC4feuomO6RPfif1zyiT',
+    'cookie_iv' => 'FQa617nib5SrRFbpm96h6AGbByLhCzc9',
+    'new_cookie_key' => 'def00000fe39e27e0ca589d9ebffdc7ccedd45ddf70d5804062a589b332c77f92b3ddb8ebe5534aaa7fdb607c958ea209578905a38167dc6a3e51aad15b0b668220ccc00',
+  ),
+);

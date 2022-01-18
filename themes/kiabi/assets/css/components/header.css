@@ -1,0 +1,125 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#header {
+  position: relative;
+  z-index: 999;
+  border-bottom: 1px solid #e5e5ea; }
+  #header .logo {
+    max-width: 100%;
+    height: auto; }
+  #header #_desktop_logo h1 {
+    margin-bottom: 0; }
+  #header .menu {
+    display: inline-block; }
+    #header .menu > ul > li {
+      display: inline-block; }
+  #header .header-nav #menu-icon {
+    margin: 0 1rem;
+    vertical-align: middle;
+    cursor: pointer; }
+    #header .header-nav #menu-icon .material-icons {
+      line-height: 50px; }
+  #header .header-nav .right-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end; }
+  #header .header-nav .currency-selector {
+    margin-top: 0.9375rem;
+    margin-left: 0.9375rem;
+    white-space: nowrap; }
+  #header .header-nav .user-info {
+    margin-top: 0.9375rem;
+    margin-left: 2.5rem;
+    text-align: right;
+    white-space: nowrap; }
+    #header .header-nav .user-info .account {
+      margin-left: 0.625rem; }
+  #header .header-nav .language-selector {
+    margin-top: 0.9375rem;
+    white-space: nowrap; }
+  #header .header-nav .cart-preview.active {
+    background: #3387f2; }
+    #header .header-nav .cart-preview.active a,
+    #header .header-nav .cart-preview.active i {
+      color: #FFFFFF; }
+  #header .header-nav .cart-preview .shopping-cart {
+    color: #acaaa6;
+    vertical-align: middle; }
+  #header .header-nav .cart-preview .body {
+    display: none; }
+  #header .header-nav .blockcart {
+    height: 3rem;
+    padding: 0.75rem;
+    margin-left: 0.9375rem;
+    text-align: center;
+    white-space: nowrap;
+    background: #ebebeb; }
+    #header .header-nav .blockcart a {
+      color: #acaaa6; }
+      #header .header-nav .blockcart a:hover {
+        color: #3387f2; }
+    #header .header-nav .blockcart.active a:hover {
+      color: #FFFFFF; }
+    #header .header-nav .blockcart .header {
+      margin-top: 0.125rem; }
+  #header .header-nav #_desktop_contact_link {
+    display: inline-block; }
+    #header .header-nav #_desktop_contact_link #contact-link {
+      margin-top: 0.9375rem; }
+  #header .header-nav .search-widget {
+    margin-top: 0.2rem; }
+  #header .header-nav .material-icons {
+    line-height: inherit; }
+    #header .header-nav .material-icons.expand-more {
+      margin-left: -0.375rem; }
+  #header .header-top > .container {
+    position: relative; }
+    #header .header-top > .container > .row:first-of-type {
+      display: flex;
+      align-items: center; }
+  #header .header-top .menu {
+    padding-left: 15px; }
+  #header .header-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  #header .header-top .position-static {
+    position: static; }
+  #header .header-top a[data-depth="0"] {
+    color: #acaaa6;
+    text-transform: uppercase; }
+  #header .header-top .search-widget {
+    float: right; }
+  #header .top-menu-link {
+    margin-left: 1.25rem; }
+  @media (max-width: 767px) {
+    #header .top-logo {
+      display: flex;
+      align-items: center;
+      min-height: 50px; }
+      #header .top-logo img {
+        width: auto;
+        max-height: 2rem; }
+      #header .top-logo > h1 {
+        margin: 0; } }
+
+/*# sourceMappingURL=header.css.map */

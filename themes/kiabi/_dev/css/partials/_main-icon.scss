@@ -1,0 +1,75 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tt-apple:before {
+  content: "\e900";
+}
+.icon-tt-cart:before {
+  content: "\e901";
+}
+.icon-tt-chplay:before {
+  content: "\e902";
+}
+.icon-tt-computer:before {
+  content: "\e903";
+}
+.icon-tt-delivery:before {
+  content: "\e904";
+}
+.icon-tt-facebook .path1:before {
+  content: "\e905";
+  color: rgb(0, 0, 0);
+}
+.icon-tt-facebook .path2:before {
+  content: "\e906";
+  margin-left: -1.00390625em;
+  color: rgb(4, 0, 55);
+}
+.icon-tt-ftcontact .path1:before {
+  content: "\e907";
+  color: rgb(202, 22, 24);
+}
+.icon-tt-ftcontact .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-tt-instagram:before {
+  content: "\e909";
+}
+.icon-tt-key:before {
+  content: "\e90a";
+  color: #040037;
+}
+.icon-tt-location:before {
+  content: "\e90b";
+  color: #040037;
+}
+.icon-tt-retour:before {
+  content: "\e90c";
+}
+.icon-tt-search:before {
+  content: "\e90d";
+}
+.icon-tt-twitter:before {
+  content: "\e90e";
+}
+.icon-tt-user:before {
+  content: "\e90f";
+  color: #040037;
+}
+.icon-tt-wishlist:before {
+  content: "\e910";
+}

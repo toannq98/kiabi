@@ -1,0 +1,15 @@
+****templates change:
+
+*** Tpl folder Template in theme
+
+templates\layouts\layout-both-columns.tpl
+templates\catalog\_partials\miniatures\product.tpl
+templates\catalog\_partials\productlist.tpl
+templates\catalog\listing\product-list.tpl
+templates\_partials\microdata\head-jsonld.tpl
+templates\_partials\microdata\product-jsonld.tpl
+_partials\microdata\product-list-jsonld.tpl
+
+*** New file
+
+templates\_partials\helpers.tpl

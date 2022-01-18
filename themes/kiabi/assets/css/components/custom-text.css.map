@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AA2CA;;qDAEqD;AACrD,iBAAiB;AAwCjB,iBAAiB;AAWjB,kBAAkB;AA8FlB;8CAC8C;AA2G9C;;qDAEqD;ACxSrD;;sCAEsC;ACLtC;;GAEG;AAGH;;GAEG;AAuBH,yEAAyE;AC9BzE,YAAa;EACX,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,MAAM;EACrB,OAAO,EAAE,iBAAiB;EAC1B,UAAU,EAAE,MAAM;EAClB,eAAG;IACD,cAAc,EAAE,SAAS;IACzB,KAAK,EFuDa,OAAY;IEtD9B,SAAS,EAAE,QAAQ;IACnB,WAAW,EAAE,GAAG;EAElB,cAAE;IACA,KAAK,EFkDa,OAAY;IEjD9B,WAAW,EAAE,GAAG;IAChB,SAAS,EAAE,KAAK;IAChB,oBAAM;MACJ,KAAK,EF0DE,OAAK;MEzDZ,WAAW,EAAE,GAAG;;AAItB,sBAAsB;EACpB,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,OAAO;EAChB,UAAU,EAAE,OAAO;EAEjB,mCAAG;IACD,SAAS,EAAE,IAAI;;AC4BjB,yBAAyB;EDvB3B,cAAe;IACb,OAAO,EAAE,gBAA0B",
+"sources": ["../../../_dev/css/partials/_mixins.scss","../../../_dev/css/partials/_variables.scss","../../../_dev/css/_theme_variables.scss","../../../_dev/css/components/custom-text.scss","../../../_dev/css/bootstrap/mixins/_breakpoints.scss"],
+"names": [],
+"file": "custom-text.css"
+}

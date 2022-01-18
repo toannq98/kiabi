@@ -1,0 +1,19 @@
+@import "theme_variables";
+
+#block-reassurance{
+  margin-top: 1rem;
+  img{
+    width: 1.563rem;
+    @include rtl-margin-right(0.625rem);
+  }
+  li{
+  }
+  li .block-reassurance-item{
+    @include rtl-padding(0.5rem, 1.5rem, 0.5rem, 0rem);
+    span{
+      font-weight: 400;
+      margin: 0px;
+      color: $theme-color-senary;
+    }
+  }
+}

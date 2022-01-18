@@ -1,0 +1,401 @@
+
+//base
+a{
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+  }
+}
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $white, $nocolor, $border-color);
+} 
+.btn-outline{
+  @include button-variant-outline($white, #282d35, #282d35, $white, $theme-color-default, $theme-color-default);
+}
+.btn-primary{
+    background-color: $theme-color-default;
+}
+.carousel-control{
+  &:hover{
+    background: $theme-color-default !important;
+  }
+}
+.owl-theme {
+    .owl-controls{
+        .owl-buttons {
+            div:hover{
+                background: $theme-color-default;
+            }
+        }
+    }
+}
+.pagination {
+    a {
+        &:hover,
+        &:focus{
+          color: $theme-color-default;
+        }
+    }
+    .current a {
+        color: $theme-color-default;
+    }
+}
+#wrapper {
+    .breadcrumb{
+        li{
+            a{
+                &:hover{
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+.products-selection{
+    .display {
+        > div{
+            &.selected{
+                a{
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+/* Override Bootstrap */
+.group-span-filestyle {
+    .btn-default {
+        background: $theme-color-default;
+    }
+}
+.custom-radio {
+    input[type="radio"]:checked + span {
+        background-color: $theme-color-default;
+    }
+}
+/* header */
+.header-nav{
+    a:hover{
+        color: $theme-color-default;
+    }
+}
+.popup-over{
+    a.popup-title{
+        &:hover{
+            color: $theme-color-default;
+        }
+    }
+    .popup-content{
+        a{
+            &:hover{
+                color: $link-hover-color;
+            }
+        }
+        ul li{
+            &.current{
+                color: $theme-color-default;
+                a{color: $theme-color-default;}
+            }
+        }
+    }
+} 
+/* Sidebar */
+.sidebar{
+    .block {
+        .title_block{
+            &:before{
+                background: $theme-color-default;
+            }
+        }
+    }
+    .#{$block-prefix}-highlighted {
+        border-color: $theme-color-default;
+        .title_block{
+            background-color: $theme-color-default;
+            border-color: $theme-color-default;
+            &:before{
+                background: none;
+            }
+        }
+    }
+}
+/* footer */
+.footer-container{
+   li{
+        a{
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+   }
+}
+/* Block cart */
+#cart-block{
+    .cart-preview {
+        &.active {
+            a {
+                color: $theme-color-default;
+            }
+        }
+    }
+}
+/* Block Search */
+.search-widget{
+    form {
+        input[type=text] {
+            &:focus {
+                outline: 3px $theme-color-default solid;
+                + button {
+                  background: $theme-color-default;
+                }
+            }
+        }
+        button[type=submit]{
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+    }
+}
+
+/* Megamenu */
+.leo-megamenu{
+	.navbar-nav{
+		> li{
+			a{
+				&:hover,
+				&:focus,
+				&:active{
+					color: $megamenu-link-hover-color;
+				}
+			}
+            &.active, 
+            &:hover, 
+            &:focus{
+                > a{
+                    color: $megamenu-link-hover-color;
+                }
+            }
+		}
+	}
+    .dropdown-menu{
+        a {
+            > .menu-title:hover{
+                color: $theme-color-default;
+            }
+        }
+        .menu-title a{
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+    }
+}
+/* Slideshow */
+.bannercontainer {
+    .tp-caption{
+        &.btn{
+            &.btn-discover{
+                &:hover{
+                    background: $theme-color-default;
+                    border-color: $theme-color-default;
+                }
+            }
+            &.btn-white{
+                &:hover{
+                    background: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+/* Product list */
+.thumbnail-container {
+    .product-title{
+        a{
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+    }
+    .quickview{
+        .quick-view{
+            &:hover{
+                background: $theme-color-default;
+            }
+        }
+    }
+}
+/* Lastest Blog */
+.blog-item{
+    .blog-meta{
+        a{
+            &:hover{
+                color: $theme-color-default;
+            }
+        }
+    }
+}
+.blog-tags{
+    a:hover{
+        span{
+            background: $theme-color-default;
+        }
+    }
+}
+/* Block category left */
+.block-categories {
+    .collapse-icons {
+        .add,
+        .remove {
+            &:hover {
+                color: $theme-color-default;
+            }
+        }
+    }
+    .arrows {
+        .arrow-right,
+        .arrow-down {
+            &:hover {
+                color: $theme-color-default;
+            }
+        }
+    }
+}
+/* Block Newsletter */
+.block_newsletter{
+    form {
+        .btn{
+            &:hover{
+                background: $theme-color-default;
+                border-color: $theme-color-default;
+            }
+        }
+    }
+}
+/* Product page */
+.product-price {
+    color: $theme-color-default;
+}
+.product-tabs{
+    &.tabs {
+        .nav-tabs {
+            .nav-link {
+                &.active {
+                    border-bottom-color: $theme-color-default;
+                    color: $theme-color-default;
+                }
+                &:hover {
+                    border-bottom-color: $theme-color-default;
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+.product-cover {
+    .layer {
+        .zoom-in {
+            color: $theme-color-default;
+        }
+    }
+}
+#product-modal {
+    .modal-content {
+        .modal-body {
+            .product-images {
+                img{
+                    &:hover {
+                        border-color: $theme-color-default;
+                      }
+                }
+            }
+        }
+    }
+}
+.product-images {
+  > li.thumb-container {
+    > .thumb {
+      &.selected,
+      &:hover {
+        border-color: $theme-color-default;
+      }
+    }
+  }
+}
+.products-section-title{
+    &:before{
+        background: $theme-color-default;
+    }
+}
+.more-info-product{
+    .title-info-product{
+        &:before{
+            background: $theme-color-default;
+        }
+    }
+}
+.products-accordion{
+    .card-header{
+        a{
+            &:hover{
+                &:after{
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+/* Back to top */
+#back-top {
+    a{
+        background: $theme-color-default;
+    }
+}
+/* Widget */
+.ApColumn {
+    .title_block{
+        &:before{
+            background: $theme-color-default;
+        }
+    }
+}
+.box-show-more {
+    a{
+        &:hover{
+            background: $theme-color-default;
+            color: $white;
+        }
+    }
+}
+/* Panel tool */
+.paneltool{
+    .leo-dynamic-update-side{
+        &.current-sidebar{
+            color: $theme-color-default;
+        }
+        &.themetool{
+            .leo-dynamic-update-header{
+                &.current-header{
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+.leo-dynamic-update-layout{
+    &:hover,
+    &.current-layout-mod{
+        color: $theme-color-default;
+    }
+}
+.group-input{
+    a.apconfig{
+        &.active{
+          color: $theme-color-default;
+        }
+    }
+}
+.enable_fheader.btn_no:before{
+    background: $theme-color-default;
+}
